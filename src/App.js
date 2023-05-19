@@ -12,8 +12,8 @@ function App() {
   const [isEdit, setIsEdit] = useState(true)
   const [editedVal, setEditedVal] = useState("")
 
-  const submitTodo = (e) => {
-    e.preventDefault();
+  const submitTodo = (event) => {
+    event.preventDefault();
     console.log("submit", date)
     if (todo === "" && date === "") {
       setErr("both must not be blank")
