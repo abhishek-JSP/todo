@@ -1,0 +1,44 @@
+.main_div{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+    height: 400px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #888888;
+    
+    
+}
+
+form{
+    width: 80%;
+    margin: 0 auto;
+   }
+   .input_content{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 8px;
+   }
+
+button{
+   margin: 2px 2px;
+   border:none;
+}
+.sub_btn{
+    background-color: green;
+    color: white;
+}
+.del_btn{
+    background-color: red;
+    color: white;
+
+}
+.edit_btn{
+    background-color: rgba(0, 55, 255, 0.637);
+    color: white;
+}
+.com_btn{
+    background-color: rgba(117, 217, 23, 0.601);
+    color: white;
+}
